@@ -8,27 +8,32 @@
             href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
             rel="stylesheet"
         />
+        <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
         <link rel="stylesheet" href="./styles/reset.css" />
         <link rel="stylesheet" href="./styles/style.css" />
         <link rel="stylesheet" href="./styles/home.css" />
-        <title>Stone Hinge II</title>
+        <title>SH.II</title>
     </head>
 
     <body>
         <header>
-            <div class="gutter-right logo">
-                <img src="./assets/big-logo.png" />
-            </div>
         </header>
         <main>
             <section class="main-section">
-                <img class="main-logo" src="./assets/alchemy-logo.png" />
-                <h2>Stone Hinge II</h2>
+                <div id="mainDiv">
+                    <div class="titleDiv"> 
+                        <img class="logo" src="./assets/wizzard.png" />
+                        <h1 id="title-text">Welcome to StoneHinge II!</h1>
+                    </div>
+                    <div class="gemsDiv"></div>
+                        <div class="gem"></div>
+                </div>
             </section>
         </main>
         <footer>
             <div class="copy gutter-right">&copy; 2022 Alchemy Code Lab</div>
         </footer>
+
         <script type="module" src="./app.js"></script>
     </body>
 </html>

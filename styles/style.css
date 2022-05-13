@@ -3,9 +3,9 @@ body {
     /* feel free to update these css variables for a quick theme */
     
     --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
+    --color2: rgb(221, 88, 145);
+    --color3: rgb(239, 200, 157);
+    --color4: rgb(116, 139, 149);
     --color5: white;
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
@@ -28,19 +28,18 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: var(--color1);
 }
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
 }
 
-section {
-    background-color: var(--color5);
+.main-section {
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -53,18 +52,20 @@ section {
     border: solid 2px var(--color1);
 }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'VT323', monospace;
+    color: var(--color4);
 }
 
-
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
+span {
+    font-size:.7rem;
+    font-family: 'VT323', monospace;
+    flex-wrap: wrap;
+    text-align: center;
+    color: var(--color2);
 }
 
 .gutter-right {
@@ -86,6 +87,6 @@ footer {
     height: var(--footer-height);
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: var(--color1);
     box-shadow: var(--shadow);
 }

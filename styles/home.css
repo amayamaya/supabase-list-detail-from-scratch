@@ -1,1 +1,24 @@
-/* add home page styles here */
+.gem {
+    max-width: 80%;
+    min-width: none;
+    display: flex;
+    height: auto;
+    border-radius: 30px;
+    border: .25em solid rgb(239, 200, 157);
+    border-radius: 10px;
+}
+
+.titleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: .5em;
+}
